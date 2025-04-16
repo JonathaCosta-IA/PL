@@ -27,4 +27,5 @@ switch(mes)
     case 12: printf("Mês de Dezembro.\n"); break;
     default: printf("A algorismo informado não tem mês correspondente no calendário gregoriano.\n\n");
 }
+return 0;
 }

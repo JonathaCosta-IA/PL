@@ -25,4 +25,5 @@ switch(letra)
     case 'U': printf("A letra é uma vogal.\n"); break;
     default: printf("A letra informada não é uma vogal!\n");
 }
+return 0;
 }
