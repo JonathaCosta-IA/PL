@@ -4,7 +4,7 @@ Prof. Jonatha Costa
 Exercício resolvido: Ler um número e informar se o número é maior, menor ou igual a 7,0.
 
 Fluxo:
-Declação de função: 
+Declaração de função: 
       Declarado no início para informar o compilador sobre a função antes do uso.
 Definição completa: 
     O corpo da função que realmente executa a lógica. Pode ser definido após a função main para manter o código mais organiza

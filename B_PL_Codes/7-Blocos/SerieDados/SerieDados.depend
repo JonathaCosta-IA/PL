@@ -44,3 +44,26 @@
 	<math.h>
 	<stdlib.h>
 
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/CalcularMedia.c
+
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/CalcularVarDesv.c
+	"SerieDados.h"
+	<math.h>
+
+1748178456 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/SerieDados.h
+
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/CarregarPares.c
+	"SerieDados.h"
+	<stdio.h>
+
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/CarregarPrimos.c
+	"SerieDados.h"
+	<stdio.h>
+
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/EncontrarMaior.c
+
+1748178456 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/7-Blocos/SerieDados/GerarVetor.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+

@@ -3,7 +3,7 @@ Lógica de programação
 Prof. Jonatha Costa
 Utilizando blocos e funções em arquivos distintos, faça um código que leia 10 numeros e informe:
 o maior número, o menor número, os números pares, os números primos,
-a média aritmética entre os 10 números, a covariância e o desvio padrão.
+a média aritmética entre os 10 números, a variância e o desvio padrão.
 */
 #include <stdio.h>
 #include "SerieDados.h"
