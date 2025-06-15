@@ -14,7 +14,7 @@ int main() {
     int num_rand[10];
     for (int n = 1; n <= 10; n++) {
         // Para evitar overflow no cálculo antes do módulo,
-        // fazemos cast para unsigned long long:
+        // fazemos uma conversão para unsigned long long:
         unsigned long long val = (unsigned long long)a * x + c;
         x = val % m;  // módulo 2^32
         printf("Iteracao %d: %u\n", n, x);
