@@ -25,7 +25,9 @@ int main()
     int maior=dados[0][0];
     int i,j,s=0;
     int ch;
-    printf("Qual modelo de solução deseja exibir(1 ou 2)? ");scanf("%d",&ch);
+    while(true){
+    printf("\n\nDigite:\n(1) para a solução 1.\n(2) para a solução 2.\n(0) para sair.\n ");scanf("%d",&ch);
+    if (ch == 0){break;};
     switch(ch)
         {
         case 1:{
@@ -72,6 +74,7 @@ int main()
             }
         default: printf("Escolha inválida!");
         }
-}
+        }
+    }
 
 
