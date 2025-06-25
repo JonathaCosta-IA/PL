@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1750852666 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code02/bib.c
+	<stdio.h>
+
+1750852687 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code02/main.c
+	<stdio.h>
+	"bib.h"
+
+1750852666 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code02/bib.h
+
