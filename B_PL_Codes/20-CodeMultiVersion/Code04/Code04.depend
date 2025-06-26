@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1750944309 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code04/main.c
+	<stdio.h>
+	"bib-code4.h"
+
+1750944344 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code04/bib-code4.h
+
+1750944760 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code04/bib-code4.c
+	<stdio.h>
+	"bib-code4.h"
+	<stdlib.h>
+
+1750944760 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code04/RotAux_code4.c
+	<stdio.h>
+	"bib-code4.h"
+
