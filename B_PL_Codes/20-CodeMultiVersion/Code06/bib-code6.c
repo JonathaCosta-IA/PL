@@ -32,7 +32,7 @@ void ExecuteSolucao2()
 void ExecuteSolucao3()
 {
     char letra = LeituraLetra();    // LeituraLetra retorna um char
-    char* dado = &letra;            // ponteiro para letra
+    char *dado = &letra;            // ponteiro para letra
     Teste2Letra(*dado);             // desreferencia para passar o char
                                     // Note que é usada a mesma Funçao Teste2Letra, porem agora passando o endereço pelo ponteiro;
 }
