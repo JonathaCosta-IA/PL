@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1751498987 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code09/bib-code9.c
+	<stdio.h>
+	<stdlib.h>
+	"bib-code9.h"
+	<math.h>
+
+1751466242 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code09/main.c
+	<stdio.h>
+	<stdlib.h>
+	"bib-code9.h"
+
+1751499074 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Code09/bib-code9.h
+

@@ -74,7 +74,7 @@ int main()
 return 0;
 }
 
-void RecebeNum() // Definiação da rotina no próprio arquivo main.c
+void RecebeNum() // Definição da rotina no próprio arquivo main.c
 {   int num;
     printf("Informe um número:\n ");scanf(" %d",&num);
     (num<7)?printf("O número informado é menor que sete!\n"):
