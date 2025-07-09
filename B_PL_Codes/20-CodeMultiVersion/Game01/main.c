@@ -22,7 +22,7 @@ int main()
         printf("\nVocê tem %d tentativas.\n",cont);
         printf("\nA palavra é:  ");
         ExibePalavra(p);
-        char l=RecebeLetra();
+        char l = RecebeLetra();
         printf("\n");
         AtualizaPalavra(p0,p,l);
         ExibePalavra(p);
