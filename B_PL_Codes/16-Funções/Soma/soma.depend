@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1732212677 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/Soma/calc.c
+
+1732212677 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/Soma/main.c
+	<stdio.h>
+	"calc.h"
+
+1732212677 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/Soma/calc.h
+

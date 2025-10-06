@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1736374392 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/BasicOper/RotinasAuxiliares.c
+	<stdio.h>
+
+1736691639 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/BasicOper_ver01/main.c
+	<stdio.h>
+	"RotinasAuxiliares_ver01.h"
+
+1736691637 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/BasicOper_ver01/RotinasAuxiliares_ver01.h
+
+1736691619 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/2- Programming Logic/1- PL_Materials_git/PL_Codes/7-Blocos/BasicOper_ver01/RotinasAuxiliares_ver01.c
+	<stdio.h>
+
