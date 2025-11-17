@@ -44,6 +44,7 @@ int RecebeNumGeral(){
 #define MAIOR 2
 
 void ProcessaNum(int n){
+ n=(n < 7 )? MENOR:(n == 7 )? IGUAL:MAIOR;
     switch (n) {
         case MENOR:
             printf("O número informado é menor que sete!\n");
