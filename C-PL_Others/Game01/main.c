@@ -14,7 +14,7 @@ int main()
     EscolhePalavra(p0);
     int tam = strlen(p0);
     char p[tam];
-    for (int i=0; i<tam ; i++)
+    for (int i=0; i < tam ; i++)
         {p[i]='*';}
     int cont = tam + 3;
     while(true)

@@ -15,3 +15,19 @@
 
 1751387884 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL-GitHub/B_PL_Codes/20-CodeMultiVersion/Game01/rotinas.h
 
+1763988442 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game01/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"rotinas.h"
+
+1757419055 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game01/rotinas.h
+
+1763988442 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game01/rotinas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"rotinas.h"
+

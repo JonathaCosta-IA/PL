@@ -19,10 +19,10 @@ void EscolhePalavra(char palavra[])
 }
 
 
-
 void ExibePalavra(char p[])
 {   int tam = strlen(p);
-    for(int i=0;i<=tam;i++){
+    printf("Estou em rotinas.c. Tam vale %d\n",tam);
+    for(int i=0;i<tam;i++){
     printf("%c",p[i]);
     }
     printf("\n");
@@ -36,7 +36,7 @@ char RecebeLetra()
 
 void AtualizaPalavra(char p0[],char p[],char letra)
 {   int tam = strlen(p);
-    for(int i=0;i<=tam;i++){
+    for(int i=0;i<tam;i++){
         if(p0[i]==letra) p[i]=letra;
     }
 
