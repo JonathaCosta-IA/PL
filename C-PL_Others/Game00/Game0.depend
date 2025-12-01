@@ -47,3 +47,16 @@
 	<time.h>
 	"rotinas.h"
 
+1764091694 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game00/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"rotinas.h"
+
+1764091492 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game00/rotinas.h
+
+1764091771 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game00/rotinas.c
+	<stdio.h>
+	<time.h>
+	"rotinas.h"
+

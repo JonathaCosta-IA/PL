@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1764081567 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game02/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"rotinas.h"
+
+1764081390 /run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game02/rotinas.h
+
+1764081493 source:/run/media/j/2B37EA2920628FCD/1.0 Job/Disciplines/1 - Programming Logic/1-PL_GitHub/C-PL_Others/Game02/rotinas.c
+	"rotinas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+

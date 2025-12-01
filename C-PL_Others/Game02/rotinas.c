@@ -9,10 +9,11 @@
 struct GameInfo PrepararGame() {// Definido a função nova
 
     struct GameInfo g;          // Criando um variável com a estrutura
+
     EscolhePalavra(g.p0);       // Preenche p0
     int n = strlen(g.p0);
     for (int i = 0; i < n; i++)
-        {g.p[i] = '*';}
+        {g.p1[i] = '*';}
     g.cont = n + 3;              // Carrega o contador
     return g;                    // Note que o retorno é um struct
 }
@@ -32,15 +33,6 @@ void EscolhePalavra(char palavra[])
 }
 
 
-void ExibePalavra(char p[])
-{   int tam = strlen(p);
-    printf("Estou em rotinas.c. Tam vale %d\n",tam);
-    for(int i=0;i<tam;i++){
-    printf("%c",p[i]);
-    }
-    printf("\n");
-
-}
 char RecebeLetra()
 {   char l;
     printf("\nInforme uma letra:  "); scanf(" %c",&l);

@@ -18,16 +18,6 @@ void EscolhePalavra(char palavra[])
     else if (p == 7) strcpy(palavra, "palavra_muito_maior");
 }
 
-
-void ExibePalavra(char p[])
-{   int tam = strlen(p);
-    printf("Estou em rotinas.c. Tam vale %d\n",tam);
-    for(int i=0;i<tam;i++){
-    printf("%c",p[i]);
-    }
-    printf("\n");
-
-}
 char RecebeLetra()
 {   char l;
     printf("\nInforme uma letra:  "); scanf(" %c",&l);
