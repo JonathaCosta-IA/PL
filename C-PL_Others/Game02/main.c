@@ -1,5 +1,5 @@
 /*
-Produza um código em C para executar o jogo da forca.
+Produza um código em C para executar o jogo da palavra oculta.
 Versão 02,comentada
 */
 #include <stdio.h>   // Biblioteca padrão
@@ -10,7 +10,8 @@ Versão 02,comentada
 
 int main()
 {
-    struct GameInfo jogo = PrepararGame(); // Utilizando a estrutura GameInfo com multi-dados
+    struct GameInfo jogo;   // Estrutura GameInfo e variável jogo
+    jogo = PrepararGame(); // Utilizando a estrutura GameInfo com multi-dados
     while(true)
         {
             printf("\nVocê tem %d tentativas!\n",jogo.cont);

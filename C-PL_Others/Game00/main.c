@@ -1,5 +1,5 @@
 /*
-Produza um código em C para executar o jogo da forca.
+Produza um código em C para executar o jogo da palavra oculta.
 Versão 00, comentada.
 */
 #include <stdio.h>   // Biblioteca padrão
