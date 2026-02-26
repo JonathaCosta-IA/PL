@@ -13,7 +13,7 @@ int main()
     char p1[10] = "****";         // Definindo um vetor para a palavra-exibida
     int cont = 4 + 3;             // Carregando um contador de erros
 
-    while(true)
+    while(1)
         {
             printf("\nVocê tem %d tentativas!\n",cont);
             printf("\nA palavra é:  ");
