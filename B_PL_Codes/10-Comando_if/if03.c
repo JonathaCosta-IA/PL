@@ -15,7 +15,7 @@ printf("Informe uma nota 2:\n"); scanf("%f",&nota2);
 
 int peso_nota1=2,peso_nota2=3;
 // Calcular
-media_pond=(peso_nota1*nota1 + peso_nota2*nota2)/2.0;
+media_pond=(peso_nota1*nota1 + peso_nota2*nota2)/(peso_nota1+peso_nota2);
 // Testar
 if (media_pond>=7.0)
 // Exibir resultados
