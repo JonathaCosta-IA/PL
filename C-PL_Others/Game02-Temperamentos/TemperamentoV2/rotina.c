@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 // Teste de pertinência
 int pertence(int numero, int lista[], int tamanho) {
 /* Procura o número na lista elemento-a-elemento
@@ -33,7 +34,7 @@ void MensagemInicial(){
 }
 
 
- char *perguntas[32] =
+char *perguntas[32] =
        {
         "Gosta da natureza?",
         "Tende para a melancolia, o sentimentalismo?",
