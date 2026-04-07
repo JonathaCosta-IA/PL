@@ -6,7 +6,6 @@ Escreva uma programa que leia uma nota e verifique se aprovado ou não,
 considerando 7,0 como critério.
 Versão 1: Código básico para passo-a-passo, sem blocos de código.
 
-
 *****************************************************
 Exercício : Reescreva o código utilizando outra lógica, estratégia ou comandos.
 *****************************************************

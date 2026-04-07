@@ -32,9 +32,9 @@ if (d<menor) {menor=d;};
 if (e<menor) {menor=e;};
 // Exibir resultados
 printf("\n");
-printf("O maior valor fornecido é %f.\n",maior);
-printf("O menor valor fornecido é %f.\n",menor);
-printf("A media entre os valores fornecidos é %f.\n\n",media);
+printf("O maior valor fornecido é %.2f.\n",maior);
+printf("O menor valor fornecido é %.2f.\n",menor);
+printf("A media entre os valores fornecidos é %.2f.\n\n",media);
 
 return 0;
 }
