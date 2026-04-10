@@ -8,16 +8,16 @@ b) Encontrar a soma dos produtos aij * bij * cij
 c) Encontrar o determinante de cada matriz
 d) Testar se as matrizes são inversíveis
 e) Média de cada matriz
-f) Verificar o somatório das matrizes é maior ou igual a media
-g) Exibir somente os ímpares de cada matriz
+f) Exibir somente os ímpares de cada matriz
 */
 
 #include <stdio.h>
 void Exibir_Traco_Matriz(int A[3][3]);
 void ChamarTracos(int A[3][3], int B[3][3], int C[3][3]);
 void Exibir_Somatorio_Xij_Matrizes(int A[3][3], int B[3][3], int C[3][3]);
-
 int CalculeDetMatriz(int A[3][3]);
+float CalculeMediaMatricial(int A[3][3]);
+void Exibir_Impares_Matriz(int A[3][3]);
 
 int main()
 {
@@ -32,7 +32,6 @@ int main()
     Exibir_Somatorio_Xij_Matrizes(A, B, C);
 
     // Criar uma rotina para calcular o determinante da matriz e exibir
-
     int Det[3] = {CalculeDetMatriz(A), CalculeDetMatriz(B), CalculeDetMatriz(C)};
     for (int i = 0; i < 3; i++)
     {
@@ -48,10 +47,18 @@ int main()
             printf("\nA matriz %d é inversível, pois seu determinante é diferente de zero. Det = %d.", i + 1, Det[i]);
     }
     // Criar uma rotina para calcular a média de cada matriz
+    float MediaDet[3] = {CalculeMediaMatricial(A), CalculeMediaMatricial(B), CalculeMediaMatricial(C)};
+    printf("\n");
 
-    // Criar uma rotina para verificar se o somatório das matrizes é maior ou igual a media
-
+    for (int i = 0; i < 3; i++)
+    {
+        printf("\nA  média dos valores da matriz %d é %.2f.", i + 1, MediaDet[i]);
+    }
+    printf("\n");
     // Criar uma rotina para exibir somente os ímpares de cada matriz
+    Exibir_Impares_Matriz(A);
+    Exibir_Impares_Matriz(B);
+    Exibir_Impares_Matriz(C);
 
     return 0;
 }
@@ -98,4 +105,35 @@ int CalculeDetMatriz(int A[3][3])
            A[0][1] * A[1][0] * A[2][2]);
 
     return det;
+}
+
+float CalculeMediaMatricial(int A[3][3])
+{
+
+    float soma = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            soma += A[i][j];
+        }
+    }
+    return soma / 9.0;
+}
+
+void Exibir_Impares_Matriz(int A[3][3])
+{
+    printf("\nOs algarismos ímpares desta matriz são:\n");
+    for (int i = 0; i < 3; i++)
+    {
+        printf("|");
+        for (int j = 0; j < 3; j++)
+        {
+            if ((A[i][j] % 2) == 0)
+                printf("   ");
+            else
+                printf(" %d ", A[i][j]);
+        }
+        printf("|\n");
+    }
 }
