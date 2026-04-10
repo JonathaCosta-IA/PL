@@ -2,7 +2,7 @@
 Lógica de programação
 Prof. Jonatha Costa
 Exercício resolvido:
-Escreva um programa que leia 5 valores, encontre o maior,  o menor e a média utilizando números inteiros.
+Escreva um programa que leia 5 valores, encontre o maior,  o menor e a média utilizando números float.
 */
 
 #include <stdio.h>

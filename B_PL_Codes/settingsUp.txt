@@ -24,7 +24,7 @@
     // LIMPAR TERMINAL APÓS EXECUTAR
     "code-runner.executorMap": {
         "c": "clear && gcc \"$fileName\" -o /tmp/$fileNameWithoutExt && /tmp/$fileNameWithoutExt; echo; echo; echo", // Compila/executa C limpando terminal
-        "python": "clear && python3 -u; echo;echo", // Executa Python com terminal limpo
+        "python": "clear && python3 -u \"$fileName\"; echo; echo"
         "java": "clear && javac \"$fileName\" -d /tmp && java -cp /tmp $fileNameWithoutExt; echo; echo; echo" // Compila/executa Java limpo
     },
     "code-runner.fileDirectoryAsCwd": true, // Executa no diretório do arquivo
