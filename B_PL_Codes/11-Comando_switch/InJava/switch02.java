@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class switch02 {
 
-    public static void main(String[] argas) {
+    public static void main(String[] args) {
         int mes;
         // Ler dados
 

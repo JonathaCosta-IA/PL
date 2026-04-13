@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class switch01 {
 
-    public static void main(String[] argas) {
+    public static void main(String[] args) {
         char letra;
         // Ler dados
 
