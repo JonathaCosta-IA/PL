@@ -21,6 +21,7 @@ public class for02 {
                 contador_maior++;
             }
         }
+        dados.close();
         // Exibir a quantidade de pessoas maiores de idade
         System.out.printf("Quantidade de pessoas maiores de idade: %d\n", contador_maior);
     }

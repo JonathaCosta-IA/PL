@@ -33,5 +33,7 @@ public class for05 {
             }
 
         }
+    dados.close();
+
     }
 }

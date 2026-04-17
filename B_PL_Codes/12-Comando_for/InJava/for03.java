@@ -54,5 +54,6 @@ public class for03 {
                 conte_pessoa_faixa3);
         System.out.printf("Média de peso (Maiores de 30 anos): %.2f (Total: %d pessoas)\n", media_peso_faixa_4,
                 conte_pessoa_faixa4);
+        dados.close();
     }
 }

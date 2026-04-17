@@ -57,6 +57,7 @@ public class switch03 {
                 System.out.println("Erro inesperado.\n");
                 break;
         }
+        entrada_dados.close();
     }
 
 }

@@ -35,6 +35,6 @@ public class switch04 {
             default:
                 System.out.println("O caractere digitado não é um sinal de pontuação reconhecido.\n");
         }
-
+        dado.close();
     }
 }

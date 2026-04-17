@@ -57,6 +57,7 @@ public class switch02 {
             default:
                 System.out.println("\nA algorismo informado não tem mês correspondente no calendário gregoriano.\n\n");
         }
+        entrada_dados.close();
     }
 
 }

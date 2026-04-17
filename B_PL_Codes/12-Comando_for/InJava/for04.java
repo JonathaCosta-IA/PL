@@ -27,5 +27,7 @@ public class for04 {
             // Exibir o resultado
             System.out.printf("O fatorial de %d é: %d\n", numero, fatorial);
         }
+        dados.close();
     }
+
 }

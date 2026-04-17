@@ -46,7 +46,7 @@ public class switch05 {
             default:
                 System.out.printf("Opção de pagamento inválida.\n");
         }
-
+        dado.close();
     }
 }
 

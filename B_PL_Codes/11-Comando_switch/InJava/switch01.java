@@ -51,6 +51,7 @@ public class switch01 {
             default:
                 System.out.println("\nA letra informada não é uma vogal!\n");
         }
+        entrada_dados.close();
 
     }
 

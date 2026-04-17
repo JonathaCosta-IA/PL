@@ -13,20 +13,5 @@ public class for01 {
         {
             System.out.printf("%d\n",i);
         }
-
-    
-        
-        int[] numeros = {1,2,3,4,5,6,7,8,9};
-        for(int i=0;i<numeros.length; i++)
-            {
-                System.out.println("Posição: " + i + " valor: " + numeros[i]);
-            }
-
     }
 }
-
-/*
- * Estrutura alternativa
- * 
- * 
- */
