@@ -6,7 +6,6 @@ Exercício resolvido em Java
 Escreva um programa em C que receba o preço de um produto e o tipo de pagamento. Apresente o preço líquido com desconto de 10% para pagamento à vista, 5% para pagamento no cartão em 1 vez, e acréscimo de 10% se parcelado.
 */
 import java.util.Scanner;
-import java.io.IOException;
 
 public class switch05 {
 

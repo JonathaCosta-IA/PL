@@ -1,0 +1,32 @@
+/*
+Lógica de programação
+Prof. Jonatha Costa
+Exercício resolvido em Java
+Escreva um programa que faça uma contagem regressiva de 10 até 1, utilizando o for.
+*/
+
+public class for01 {
+    public static void main(String[] args )
+    {
+
+        for(int i=0;i<10;i++)
+        {
+            System.out.printf("%d\n",i);
+        }
+
+    
+        
+        int[] numeros = {1,2,3,4,5,6,7,8,9};
+        for(int i=0;i<numeros.length; i++)
+            {
+                System.out.println("Posição: " + i + " valor: " + numeros[i]);
+            }
+
+    }
+}
+
+/*
+ * Estrutura alternativa
+ * 
+ * 
+ */
