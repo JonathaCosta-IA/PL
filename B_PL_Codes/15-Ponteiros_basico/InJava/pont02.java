@@ -1,29 +1,36 @@
 /*
 Lógica de programação
 Prof. Jonatha Costa
-Exercício resolvido com ponteiros.
+Exercício resolvido em java
 Escreva um código em C que preencha um vetor com 10 números e indique o maior, o menor número e a diferença entre eles.
 */
 
-#include <stdio.h>
+import java.util.Scanner;
 
-int main() {
-    int v[10], i, *p, maior, menor;
+public class pont02 {
 
-    printf("Digite 10 números:\n");
-    for (p = v; p < v + 10; p++) {
-        scanf("%d", p);
+    public static void main(String[] args) {
+        Scanner dados = new Scanner(System.in);
+
+        int[] v = new int[10];
+        int i, maior, menor;
+
+        System.out.printf("Digite 10 números:\n");
+        for (i = 0; i < 10; i++) {
+            v[i] = dados.nextInt();
+        }
+
+        maior = menor = v[0];
+        for (i = 1; i < 10; i++) {
+            if (v[i] > maior)
+                maior = v[i];
+            if (v[i] < menor)
+                menor = v[i];
+        }
+
+        System.out.printf("Maior: %d\n", maior);
+        System.out.printf("Menor: %d\n", menor);
+        System.out.printf("Diferença: %d\n", maior - menor);
+        dados.close();
     }
-
-    maior = menor = *v;
-    for (i = 1; i < 10; i++) {
-        if (*(v + i) > maior) maior = *(v + i);
-        if (*(v + i) < menor) menor = *(v + i);
-    }
-
-    printf("Maior: %d\n", maior);
-    printf("Menor: %d\n", menor);
-    printf("Diferença: %d\n", maior - menor);
-    return 0;
 }
-

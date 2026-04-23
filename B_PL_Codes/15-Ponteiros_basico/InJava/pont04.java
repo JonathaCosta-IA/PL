@@ -1,34 +1,41 @@
 /*
 Lógica de programação
 Prof. Jonatha Costa
-Exercício resolvido com ponteiros.
+Exercício resolvido em java
 Escreva um código em C que preencha um vetor com 10 números e retorne quais são os números primos deste veto
 */
 
-#include <stdio.h>
+import java.util.Scanner;
 
-int main() {
-    int v[10], i, j, primo, *p;
+public class pont04 {
 
-    printf("Digite 10 números:\n");
-    for (p = v; p < v + 10; p++) {
-        scanf("%d", p);
-    }
+    public static void main(String[] args) {
+        Scanner dados = new Scanner(System.in);
 
-    printf("Números primos:\n");
-    for (p = v; p < v + 10; p++) {
-        if (*p < 2) continue;
-        primo = 1;
-        for (j = 2; j <= *p / 2; j++) {
-            if (*p % j == 0) {
-                primo = 0;
-                break;
-            }
+        int[] v = new int[10];
+        boolean primo;
+
+        System.out.printf("Digite 10 números:\n");
+        for (int i = 0; i < 10; i++) {
+            v[i] = dados.nextInt();
         }
-        if (primo) printf("%d ", *p);
+
+        System.out.printf("Números primos:\n");
+        for (int i = 0; i < 10; i++) {
+            if (v[i] < 2)
+                continue;
+            primo = true;
+            for (int j = 2; j <= v[i] / 2; j++) {
+                if (v[i] % j == 0) {
+                    primo = false;
+                    break;
+                }
+            }
+            if (primo)
+                System.out.printf("%d ", v[i]);
+        }
+
+        System.out.printf("\n");
+        dados.close();
     }
-
-    printf("\n");
-    return 0;
 }
-
