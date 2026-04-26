@@ -9,6 +9,7 @@ Declaração de função:
 Definição completa:
     O corpo da função que realmente executa a lógica. Pode ser definido após a função main para manter o código mais organiza
 */
+
 #include <stdio.h>
 void verificaNumero(float numero) // Função
 {                                 // Função que verifica se o número é maior, menor ou igual a 7,0
