@@ -3,7 +3,7 @@ Prof. Jonatha Costa
 Exercício resolvido em java: sobre blocos de programação em arquivos diferentes.
 */
 
-public class soma {
+public class somaMain {
 
     public static void main(String[] args) {
         int res, v1 = 2, v2 = 3;
