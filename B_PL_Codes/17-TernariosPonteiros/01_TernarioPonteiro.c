@@ -9,12 +9,18 @@ c) Se o número for zero, deve imprimir ``Número zero''
 */
 
 #include <stdio.h>
-int main() {
+int main()
+{
     int num;
     printf("Digite um número: ");
     scanf("%d", &num);
-    (num > 0) ? printf("Número positivo\n") :
-    (num < 0) ? printf("Número negativo\n") : 
-    printf("Número zero\n");
+    printf(
+        (num > 0) ? "Número positivo\n" : (num < 0) ? "Número negativo\n"
+                                                    : "Número zero\n");
 }
 
+/* Doutro modo:
+    (num > 0) ? printf("Número positivo\n") :
+    (num < 0) ? printf("Número negativo\n") :
+    printf("Número zero\n");
+*/
