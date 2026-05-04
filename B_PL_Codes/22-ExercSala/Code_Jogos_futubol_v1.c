@@ -120,7 +120,8 @@ int main()
 //-------------------------------------------------------------
 void ExibirMenu(char time[])
 {
-    printf("\n\nTime: %s\n", time);
+    system("clear");
+    printf("\n\nTime escolhido: %s\n", time);
     printf("\n----------------------------"
            "\nEscolha um opção do menu:"
            "\n(1) Para exibir os gols do time"
@@ -129,6 +130,7 @@ void ExibirMenu(char time[])
            "\n(4) Para exibir o número de partidas (total) em que o time marcou gols acima da média."
            "\n(5) para exibir a maior quantidade de gols marcada em uma partida e a rodada correspondente."
            "\n----------------------------"
+           "\n(0) Para retornar ao menu principal."
            "\n(100) Para sair do sistema."
            "\n\n Sua opção escolhida:  ");
 }
