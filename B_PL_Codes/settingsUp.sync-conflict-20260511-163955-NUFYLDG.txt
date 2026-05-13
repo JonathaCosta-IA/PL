@@ -1,0 +1,45 @@
+{
+    // ESTILO
+    "editor.fontSize": 16, // Tamanho da fonte do editor
+    "editor.minimap.enabled": false, // Desativa minimapa lateral
+    "workbench.colorTheme": "Dracula Theme Soft", // Define tema visual
+    // GERAL
+    "editor.formatOnSave": true, // Formata arquivo ao salvar
+    "files.autoSave": "afterDelay", // Auto-salvamento com atraso
+    "files.autoSaveDelay": 1000, // Atraso do autosave (ms)
+    "workbench.editor.enablePreview": false, // Abre arquivos em abas fixas
+    // TERMINAL
+    "terminal.integrated.defaultProfile.linux": "bash", // Shell padrão = bash
+    "terminal.integrated.scrollback": 10000, // Histórico do terminal (linhas)
+    // PYTHON
+    "python.terminal.activateEnvironment": true, // Ativa venv no terminal
+    "python.terminal.executeInFileDir": true, // Executa no diretório do arquivo
+    "python.REPL.enableREPLSmartSend": true, // Envio inteligente ao REPL
+    "python.terminal.launchArgs": [], // Sem argumentos extras
+    "python.terminal.shellIntegration.enabled": false, // Desativa integração shell
+    // EXECUÇÃO
+    "code-runner.runInTerminal": true, // Executa no terminal integrado
+    "code-runner.clearPreviousOutput": true, // Limpa saída anterior
+    "code-runner.showExecutionMessage": false, // Oculta mensagem de execução
+    // LIMPAR TERMINAL APÓS EXECUTAR
+    "code-runner.executorMap": {
+        "c": "clear && gcc \"$fileName\" -o /tmp/$fileNameWithoutExt && /tmp/$fileNameWithoutExt; echo; echo; echo", // Compila/executa C limpando terminal
+        "python": "clear && python3 -u; echo;echo", // Executa Python com terminal limpo
+        "java": "clear && javac \"$fileName\" -d /tmp && java -cp /tmp $fileNameWithoutExt; echo; echo; echo" // Compila/executa Java limpo
+    },
+    "code-runner.fileDirectoryAsCwd": true, // Executa no diretório do arquivo
+    // GITHUB
+    "github.copilot.enable": {
+        "*": false, // Desativa Copilot globalmente
+        "plaintext": false, // Desativa em texto simples
+        "markdown": false, // Desativa em Markdown
+        "scminput": false // Desativa em mensagens Git
+    },
+    "git.openRepositoryInParentFolders": "always", // Procura repo nas pastas pai
+    "workbench.panel.showLabels": false, // Oculta rótulos do painel
+    "git.autofetch": true, // Git fetch automático
+    "redhat.telemetry.enabled": true, // Telemetria extensões RedHat ativa
+    "window.confirmSaveUntitledWorkspace": false, // Não confirmar workspace
+    "java.run.console": "integratedTerminal", // Java roda no terminal integrado
+    "git.confirmSync": false // Não pedir confirmação no sync
+}
