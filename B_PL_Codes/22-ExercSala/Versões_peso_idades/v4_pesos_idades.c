@@ -129,8 +129,8 @@ void GerarDados(float Dados_pessoas[][8])
     srand(time(NULL));
     for (int j = 0; j < 8; j++)
     {
-        Dados_pessoas[0][j] = rand() % 50;  // Idades
-        Dados_pessoas[1][j] = rand() % 100; // Pesos
+        Dados_pessoas[0][j] = 5 + rand() % 50;  // Idades
+        Dados_pessoas[1][j] = 15 + rand() % 120; // Pesos
     }
 }
 

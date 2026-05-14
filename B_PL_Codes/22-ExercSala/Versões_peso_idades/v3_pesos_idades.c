@@ -119,8 +119,8 @@ int main()
 Reordenação matricial:
     Dados[3][8] = [ Dados[0][0:8]  // Idade
                     Dados[1][0:8]  // Pesos
-                    Dados[2][0:4] //  contagem por faixa e
-                    Dados[2][5:8] //  Pesos por faixa
+                    Dados[2][0:4]  //  contagem por faixa e
+                    Dados[2][5:8]  //  Pesos por faixa
                     ]
  NOTA:
   Em C, não é permita atribuição de lista a array após declaração.
