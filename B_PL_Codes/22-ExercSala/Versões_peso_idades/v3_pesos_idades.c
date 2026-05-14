@@ -28,6 +28,23 @@ void CarregarDados(float Dados_pessoas[][8])
     }
 }
 
+void MostrarDados(float Dados_pessoas[][8])
+{
+
+    // Ler a idade  de 8 pessoas
+    // Armazenado na linhas 1, índice 0.
+    printf("\n");
+    for (int i = 0; i < 3; i++)
+    {
+        printf("| ");
+        for (int j = 0; j < 8; j++)
+        {
+            printf("%.0f ", Dados_pessoas[i][j]);
+        };
+        printf("|\n");
+    }
+}
+
 void CalcularEstatisticas(float Dados_pessoas[][8])
 {
 
@@ -75,21 +92,27 @@ void CalcularMedias(float Dados_pessoas[][8])
 
 int main()
 {
-    /*
-    Reordenação matricial:
-        Dados[3][8] = [ Dados[0][0:8]  // Idade
-                        Dados[1][0:8]  // Pesos
-                        Dados[2][0:4] //  contagem por faixa e
-                        Dados[2][5:8] //  Pesos por faixa
-                        ]
-    */
 
-    float Dados_Pessoas[3][8];
+    float Dados_Pessoas[3][8] = {{10, 20, 30, 40, 15, 25, 35, 45}, // Reordenação do vetor
+                                 {50, 60, 40, 50, 60, 40, 50, 60},
+                                 {0, 0, 0, 0, 0, 0, 0, 0}};
 
-    CarregarDados(Dados_Pessoas);
+    // CarregarDados(Dados_Pessoas);
+    MostrarDados(Dados_Pessoas);
     CalcularEstatisticas(Dados_Pessoas);
     CalcularMedias(Dados_Pessoas);
-    // Calcular a médias de peso por faixa etária
 
     return 0;
 }
+
+/*
+Reordenação matricial:
+    Dados[3][8] = [ Dados[0][0:8]  // Idade
+                    Dados[1][0:8]  // Pesos
+                    Dados[2][0:4] //  contagem por faixa e
+                    Dados[2][5:8] //  Pesos por faixa
+                    ]
+ NOTA:
+  Em C, não é permita atribuição de lista a array após declaração.
+  Portanto, para testar de modo rápido, utilize uma função random ou declare aqui!
+*/
