@@ -16,6 +16,8 @@ void CarregarDados(float Dados_pessoas[][8])
     {
         printf("Informe a idade da pessoa (%d/8): ", i + 1);
         scanf("%f", &Dados_pessoas[0][i]);
+        // Convertendo o float para int
+        Dados_pessoas[0][i] = (int)Dados_pessoas[0][i];
     }
 
     // Ler o peso de 8 pessoas
@@ -33,7 +35,7 @@ void MostrarDados(float Dados_pessoas[][8])
 
     // Ler a idade  de 8 pessoas
     // Armazenado na linhas 1, índice 0.
-    printf("\n");
+    printf("\n\n");
     for (int i = 0; i < 3; i++)
     {
         printf("| ");
@@ -84,9 +86,17 @@ void CalcularMedias(float Dados_pessoas[][8])
 {
     for (int i = 0; i < 4; i++)
     {
-        printf("\nA média de peso de faixa %d é %.2f com %d pessoas.", i + 1,
-               Dados_pessoas[2][i + 4] / Dados_pessoas[2][i],
-               (int)Dados_pessoas[2][i]);
+        if (Dados_pessoas[2][i] == 0)
+        {
+            printf("Não há pessoas registradas na faixa %d.", i + 1);
+        }
+
+        else
+        {
+            printf("\nA média de peso de faixa %d é %.2f com %d pessoas.", i + 1,
+                   Dados_pessoas[2][i + 4] / Dados_pessoas[2][i],
+                   (int)Dados_pessoas[2][i]);
+        };
     }
 }
 
@@ -98,9 +108,9 @@ int main()
                                  {0, 0, 0, 0, 0, 0, 0, 0}};
 
     // CarregarDados(Dados_Pessoas);
-    MostrarDados(Dados_Pessoas);
     CalcularEstatisticas(Dados_Pessoas);
     CalcularMedias(Dados_Pessoas);
+    MostrarDados(Dados_Pessoas);
 
     return 0;
 }
