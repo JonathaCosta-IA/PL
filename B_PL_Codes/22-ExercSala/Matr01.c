@@ -23,8 +23,8 @@ int main()
 {
     // Definir as matrizes
     int A[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int B[3][3] = {{0, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int C[3][3] = {{10, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int B[3][3] = {{0, 2, 3}, {14, 2, 6}, {7, -3, 9}};
+    int C[3][3] = {{10, 2, 3}, {4, 0, 6}, {21, 8, 9}};
     // Criar uma rotina para calcular o traço da matriz e exibir
     ChamarTracos(A, B, C);
 
