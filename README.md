@@ -6,7 +6,7 @@ Repositório da disciplina **Lógica de Programação**, ministrada no curso de 
 
 Este repositório reúne materiais utilizados em aula, listas, provas, exemplos e exercícios resolvidos, servindo como apoio ao processo de ensino-aprendizagem em programação estruturada.
 
-A disciplina aborda fundamentos de algoritmos, linguagem C, estruturas de dados e modularização. :contentReference[oaicite:0]{index=0}
+A disciplina aborda fundamentos de algoritmos, linguagem C, estruturas de dados e modularização. 
 
 ## Conteúdo
 
@@ -21,7 +21,7 @@ A disciplina aborda fundamentos de algoritmos, linguagem C, estruturas de dados 
 - Modularização  
 - Depuração de programas  
 
-Conforme plano da disciplina, também são exploradas práticas de implementação e desenvolvimento estruturado em C. :contentReference[oaicite:1]{index=1}
+Conforme plano da disciplina, também são exploradas práticas de implementação e desenvolvimento estruturado em C. 
 
 ## Estrutura
 
