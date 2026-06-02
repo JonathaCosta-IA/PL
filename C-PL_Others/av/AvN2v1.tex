@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{enumitem}
+
+\begin{document}
+	
+	\begin{center}
+		\textbf{\large INSTITUTO FEDERAL DO CEARÁ – IFCE}\\
+		\textbf{Engenharia de Controle e Automação / Engenharia Mecânica}\\
+		\textbf{Avaliação de Lógica de Programação}\footnote{Prof. Jonatha Costa - jonatha.costa@ifce.edu.br}\\
+		\textbf{20 de maio de 2026}
+	\end{center}
+	
+	\section*{Instruções}
+	
+	\begin{itemize}
+		\item Avaliação em dupla interativa.
+		\item A dupla deve discutir e elaborar o \textit{pseudo}-código da solução, apresentando-o ao professor quando da entrega da avaliação. 
+        A dupla deve estar preparada para explicar o \textit{pseudo}-código e a lógica da solução proposta.
+        \item A implementação deve ser realizada via simulador: code-blocks, gdbonline, replit ou similar.
+        \item O código deve ser escrito em linguagem C, \textbf{iniciando} com o \textit{pseudo}-código e depois a implementação.
+		\item Duração: 13h30min às 15h30min.
+	\end{itemize}
+	
+	\section*{Questão avaliativa}
+
+Durante uma ação de monitoramento promovida por uma equipe de saúde, foi realizado o levantamento de indicadores físicos de um grupo de pessoas para posterior análise.
+
+Desenvolva um programa em linguagem C capaz de simular esse levantamento para \textbf{10 pessoas}.
+
+Para cada pessoa, o programa deve gerar aleatoriamente os seguintes dados: idade entre 18 e 80 anos, peso entre 40 e 120 kg e altura entre 1,40 e 2,10 m. Esses valores devem ser armazenados em uma matriz.
+
+Com base nos dados gerados, o programa deve calcular:
+
+\begin{enumerate}[label=\alph*)]
+    \item a quantidade de pessoas em cada faixa etária: 18 a 29 anos, 30 a 49 anos e acima de 50 anos;
+    
+    \item o Índice de Massa Corporal (IMC) individual:
+    \[
+        IMC = \frac{\text{peso}}{(\text{altura})^2}
+    \]
+    
+    \item a classificação do IMC individual:
+    abaixo de 18,5 (abaixo do peso), de 18,5 a 24,9 (normal), de 25,0 a 29,9 (sobrepeso) e acima de 30,0 (obesidade).
+\end{enumerate}
+
+Ao final, exiba os dados completos das pessoas e o resumo por faixa etária.
+
+O programa deve utilizar estruturas de repetição, condicionais e \textbf{subrotinas} para geração dos dados, cálculo do IMC e exibição final.
+
+\end{document}

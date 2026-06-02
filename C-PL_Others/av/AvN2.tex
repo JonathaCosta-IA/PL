@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{enumitem}
+
+\begin{document}
+	
+	\begin{center}
+		\textbf{\large INSTITUTO FEDERAL DO CEARÁ – IFCE}\\
+		\textbf{Engenharia de Controle e Automação / Engenharia Mecânica}\\
+		\textbf{Avaliação de Lógica de Programação}\footnote{Prof. Jonatha Costa - jonatha.costa@ifce.edu.br}\\
+		\textbf{20 de maio de 2026}
+	\end{center}
+	
+	\section*{Instruções}
+	
+	\begin{itemize}
+		\item Avaliação em dupla.
+		\item A implementação deve ser realizada via simulador: code-blocks, gdbonline, replit ou similar.
+		\item O código deve ser escrito em linguagem C.
+        \item O programa deve ser comentado e organizado.
+		\item Duração: 13h30min às 15h30min.
+	\end{itemize}
+	
+	\section*{Questão avaliativa}
+Durante uma ação de monitoramento promovida por uma equipe de saúde, foi realizado o levantamento de indicadores físicos de um grupo de pessoas para posterior análise estatística.
+Você foi contratado para desenvolver um programa que simule esse levantamento de dados e realize os cálculos necessários para a análise dos dados coletados.
+Para tanto, você deve desenvolver um programa em linguagem C capaz de simular esse levantamento de dados para \textbf{15 pessoas}.
+Para cada pessoa, o programa deve gerar aleatoriamente os seguintes dados de idade num intervalo entre 18 e 100 anos, peso entre 30 e 150 kg e altura entre 1,0 e 2,5 m. 
+Esses valores devem ser armazenados numa matriz de dados.
+
+Com base nos dados gerados, o programa deve calcular:
+\begin{enumerate}[label=\alph*)]
+    \item a quantidade de pessoas em cada faixa etária, considerando as faixas etárias: 18 a 29 anos, 30 a 39 anos, 40 a 49 anos e acima de 50 anos;
+    \item a media da idade por faixa etária;
+    \item a média do peso por faixa; 
+    \item a média da altura por faixa;
+    \item o Índice de Massa Corporal (IMC) individual, considerando  
+    que o IMC individual é dado por:
+    \(
+        IMC = \frac{\text{peso}}{(\text{altura})^2}
+    \)
+    \item a classificação correspondente do IMC individual, considerando: abaixo de 18,5 (abaixo do peso), de 18,5 a 24,9 (peso normal), de 25,0 a 29,9 (sobrepeso) e acima de 30,0 (obesidade).
+\end{enumerate}
+
+
+Ao final, exiba os dados completos das pessoas e os resultados estatísticos em formato organizado.
+
+O programa deve utilizar estruturas de repetição, condicionais e \textbf{subrotinas} para geração dos dados, cálculos e exibição final.
+
+\subsection*{Exemplo de saída}
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|l|}
+\hline
+N & Idade & Peso & Altura & IMC & Classificação \\ \hline
+1  & 37 & 48.0  & 1.59 & 18.99 & Normal \\ \hline
+2  & 38 & 71.0  & 1.43 & 34.72 & Obesidade \\ \hline
+3  & 32 & 31.0  & 1.45 & 14.74 & Abaixo \\ \hline
+4  & 26 & 61.0  & 1.92 & 16.55 & Abaixo \\ \hline
+5  & 37 & 123.0 & 1.02 & 118.22 & Obesidade \\ \hline
+6  & 33 & 100.0 & 2.31 & 18.74 & Normal \\ \hline
+7  & 56 & 133.0 & 2.46 & 21.98 & Normal \\ \hline
+8  & 44 & 61.0  & 2.16 & 13.07 & Abaixo \\ \hline
+9  & 50 & 57.0  & 1.67 & 20.44 & Normal \\ \hline
+10 & 48 & 123.0 & 1.20 & 85.42 & Obesidade \\ \hline
+15 & 40 & 127.0 & 1.07 & 110.93 & Obesidade \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection*{Resumo por faixa etária}
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Faixa etária & Quantidade & Média idade & Média peso & Média altura \\ \hline
+18--29 anos & 3 & 26.67 & 72.67 & 1.58 \\ \hline
+30--39 anos & 5 & 35.40 & 74.60 & 1.56 \\ \hline
+40--49 anos & 5 & 44.40 & 101.20 & 1.45 \\ \hline
+50+ anos    & 2 & 53.00 & 95.00 & 2.07 \\ \hline
+\end{tabular}
+\end{center}
+
+\end{document}
